@@ -1,0 +1,1180 @@
+fileFormatVersion: 2
+guid: f40d4f2aa5648d84b910b159e0c59b5a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5546671543968653177
+    second: UIMenuBox
+  - first:
+      213: 8755591262435691780
+    second: UIMenuButton
+  - first:
+      213: -3459558614108198297
+    second: UIMEnuButtonPressed
+  - first:
+      213: 659797372610145418
+    second: UiMenuButtonGreen
+  - first:
+      213: -689520407193891599
+    second: Crown
+  - first:
+      213: 160890277334083914
+    second: SoundIcon
+  - first:
+      213: 1026407549584056185
+    second: SpriteSheet_6
+  - first:
+      213: -3086720242725003937
+    second: SpriteSheet_7
+  - first:
+      213: -4556197565260342421
+    second: SpriteSheet_8
+  - first:
+      213: -2764029711273647405
+    second: MusicIcon
+  - first:
+      213: -5540648042656198855
+    second: UIMenuFrameThin
+  - first:
+      213: 3929453942698372637
+    second: UiMenuFrameBig
+  - first:
+      213: 8058879627694289943
+    second: UiMenuFrameThick
+  - first:
+      213: 6833624519701456044
+    second: MenuButton
+  - first:
+      213: 4050273695720440628
+    second: AvatarArea
+  - first:
+      213: -8516189750247450741
+    second: AvatarFrame
+  - first:
+      213: -4768450242260759221
+    second: MinimapArea
+  - first:
+      213: -5521112282276127969
+    second: FlagDanish
+  - first:
+      213: -8541409857757731410
+    second: FlagUK
+  - first:
+      213: -5572509613601934907
+    second: Avatar1
+  - first:
+      213: -3838258349821351499
+    second: Avater2
+  - first:
+      213: -5286662529374476937
+    second: Avatar3
+  - first:
+      213: 1277883734897365660
+    second: Avatar4
+  - first:
+      213: 7527993347093890185
+    second: AvatarBG
+  - first:
+      213: 4053668086318188678
+    second: AvatarBGyou
+  - first:
+      213: 3264905169120645115
+    second: MinimapMArker
+  - first:
+      213: 5333990979447057299
+    second: MinimapFrame
+  - first:
+      213: -504017520616853406
+    second: OtherPlayerSelector
+  - first:
+      213: 5546671543968653177
+    second: submitFill
+  - first:
+      213: 159206623142896768
+    second: submit
+  - first:
+      213: -7039451908083919749
+    second: submitButtonMiddleFille
+  - first:
+      213: 1896679991461947789
+    second: UIOptionsIcon
+  - first:
+      213: 7543813629970960811
+    second: UICloseIcon
+  - first:
+      213: 8840888682228893082
+    second: BotAvatar
+  - first:
+      213: 8755591262435691780
+    second: SliderBase
+  - first:
+      213: -3459558614108198297
+    second: UiMenuSliderBG
+  - first:
+      213: -7541126531208135790
+    second: FlagUKGreyedOut
+  - first:
+      213: 3845696347871024056
+    second: FlagDanishGreyedOut
+  - first:
+      213: -4101654532201967093
+    second: AboutIcon
+  - first:
+      213: -3459558614108198297
+    second: UnboardingArrow
+  - first:
+      213: 3039604127860658022
+    second: UnboardingDrag
+  - first:
+      213: 6735335700973961867
+    second: UnbordingZoom
+  - first:
+      213: 5567557085737383133
+    second: UnboardingPinch
+  - first:
+      213: -1428525038206826772
+    second: ScoreBar
+  - first:
+      213: 1266644033504714095
+    second: MiniMapBG
+  - first:
+      213: 1919561995650511159
+    second: YourTurnSign
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UIMenuBox
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1573
+        width: 505
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 245, y: 227, z: 247, w: 227}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8e85971efea6c4981f51f783305e6d
+      internalID: 5546671543968653177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMenuButton
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1936
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 47, y: 45, z: 47, w: 45}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bee484144a6837409e4746f1b805c3e
+      internalID: 8755591262435691780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMEnuButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1936
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6372826a35a8ca44a33ad420e777063
+      internalID: -3459558614108198297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiMenuButtonGreen
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1936
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fa92260195b5b4882ce8f3ea28d4d2
+      internalID: 659797372610145418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crown
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1903
+        width: 251
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3d8d8da2e5e444a83726499683188e
+      internalID: -689520407193891599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoundIcon
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1844
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530c8261f7eaf9f4f8bd4a7a02175bb0
+      internalID: 160890277334083914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MusicIcon
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1845
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16257f885319e06419cb20be74232d8e
+      internalID: -2764029711273647405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMenuFrameThin
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1827
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbef13dbf57dad244a2325a38123920a
+      internalID: -5540648042656198855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiMenuFrameBig
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1692
+        width: 198
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 97, y: 93, z: 96, w: 92}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153e1f85fa9898744ae31218e43ded89
+      internalID: 3929453942698372637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiMenuFrameThick
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1714
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1714da98512480e408a3c90ac8986e26
+      internalID: 8058879627694289943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuButton
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1689
+        width: 112
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bdb462873231244b46e3359c4f52c0
+      internalID: 6833624519701456044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvatarArea
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1339
+        width: 588
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfce82bc44cc09439b65d3cade5bf8b
+      internalID: 4050273695720440628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvatarFrame
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1878
+        width: 145
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0ca2cf485063e42b782fcb9724c258
+      internalID: -8516189750247450741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimapArea
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1386
+        width: 447
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dca5dff160b3f4d9f9c31d5e4deead
+      internalID: -4768450242260759221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagDanish
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1154
+        width: 194
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6544edbc8fd1fb8448ec737d7648e2ad
+      internalID: -5521112282276127969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagUK
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1145
+        width: 194
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7438dc66b3a3c4d9c2faed82966a46
+      internalID: -8541409857757731410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Avatar1
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1209
+        width: 95
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f24699df432644e9b061e0eee31253
+      internalID: -5572509613601934907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Avater2
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1208
+        width: 95
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdb5b00bb71b614dade783eeeb3033b
+      internalID: -3838258349821351499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Avatar3
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1208
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e1bfbf1ae0e1044afb4e18d5010364
+      internalID: -5286662529374476937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Avatar4
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1208
+        width: 96
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861cf7eb1e4bf914a8007c1cc2f2418f
+      internalID: 1277883734897365660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvatarBG
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1210
+        width: 145
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c3bc2d6b8dc9442afb2230c49e9c92
+      internalID: 7527993347093890185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvatarBGyou
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1207
+        width: 145
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142a3e4bebe117d469913c06a6ef47b8
+      internalID: 4053668086318188678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimapMArker
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1596
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b915bfcdfb4a074d8120cc48f5a520e
+      internalID: 3264905169120645115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimapFrame
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1650
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53044db750ebf474689179060cd7566f
+      internalID: 5333990979447057299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OtherPlayerSelector
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 888
+        width: 222
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56b037b61f7f7c42b5f565b3e955f35
+      internalID: -504017520616853406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: submitFill
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 933
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2418d83044b64488b410a9ee930af8
+      internalID: 5546671543968653177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: submit
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 967
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a73c5837f6a8e4caa0be321728624f
+      internalID: 159206623142896768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: submitButtonMiddleFille
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1090
+        width: 110
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc17d1b9d2a286149b34a88e8d0b1f7c
+      internalID: -7039451908083919749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIOptionsIcon
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1799
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84be46ee9c321f140af48a8e9f7b598d
+      internalID: 1896679991461947789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UICloseIcon
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1807
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad306244dd664514c8c94e7c0dec680e
+      internalID: 7543813629970960811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotAvatar
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1080
+        width: 111
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6e055233d94094ba88edc466dadbaf
+      internalID: 8840888682228893082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SliderBase
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1539
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 24, z: 25, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7836a4b5980e6234596ca2a38483736a
+      internalID: 8755591262435691780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiMenuSliderBG
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1850
+        width: 198
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 95, y: 91, z: 96, w: 92}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dadfb70c10e8c4b9904fcf4ea07cc2
+      internalID: -3459558614108198297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagUKGreyedOut
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 690
+        width: 194
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79167a8e81d488b4d9389b74cd1e8a65
+      internalID: -7541126531208135790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagDanishGreyedOut
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 698
+        width: 194
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164b52e39bdcc264ab939c3538de1d0c
+      internalID: 3845696347871024056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AboutIcon
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 660
+        width: 287
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d5131a1b960004596a398e6a0a2077
+      internalID: -4101654532201967093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnboardingArrow
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1672
+        width: 156
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 52, y: 0, z: 91, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf3703b64f08f54a971976e3399b3cd
+      internalID: -3459558614108198297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnboardingDrag
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 498
+        width: 144
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a4d0bbf728bb44795d79066757a5d4
+      internalID: 3039604127860658022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbordingZoom
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 498
+        width: 149
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f143cff933453f42a7e9c22cdab2b70
+      internalID: 6735335700973961867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnboardingPinch
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 499
+        width: 160
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c298c7afacaea0f4281a9296f17916a4
+      internalID: 5567557085737383133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScoreBar
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1782
+        width: 229
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e943c6619a53fe49b1459e6a2a6611a
+      internalID: -1428525038206826772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniMapBG
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1693
+        width: 500
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae6381f1e578fb469b53992f03218ec
+      internalID: 1266644033504714095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YourTurnSign
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1557
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 49, z: 50, w: 49}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27c3e429814d3340914395ad01d515d
+      internalID: 1919561995650511159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 021d20ed79eca1c40a096c44d3d41e57
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
