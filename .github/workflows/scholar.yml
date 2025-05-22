@@ -30,7 +30,7 @@ jobs:
       - name: Show JSON (was it written?)
         run: |
           ls -l public/data || true
-          cat public/data/scholar.json || true
+          cat data/scholar.json || true
 
       - name: Show git status (is it dirty?)
         run: git status --porcelain

@@ -32,7 +32,7 @@ metrics = {
     "hindex":    author["hindex"],
 }
 
-out = pathlib.Path("public/data")
+out = pathlib.Path("data")
 out.mkdir(parents=True, exist_ok=True)
 out.joinpath("scholar.json").write_text(json.dumps(metrics))
 print("Wrote", out/"scholar.json", "→", metrics)
