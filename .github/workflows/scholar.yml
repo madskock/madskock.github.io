@@ -19,7 +19,7 @@ jobs:
 
       - name: Install scholarly
         run: pip install scholarly
-        pip install free-proxy
+        run: pip install free-proxy
 
       - name: Run update script
         run: python scripts/update_scholar.py
