@@ -35,17 +35,26 @@
     <!-- END HEAD -->
 
 	<script>
-	(async ()=> {
-		try{
-			const res   = await fetch('public/data/scholar.json');   // adjust path if needed
-			const stats = await res.json();
+	(async () => {
+	  try {
+		/* ----------  SETTINGS  ---------- */
+		const PROFILE_ID = 'phhix_AAAAAJ';      // your Scholar ID
+		const PROFILE_URL = `https://scholar.google.com/citations?user=${PROFILE_ID}`;
+		const JSON_PATH   = '/data/scholar.json';   // adjust if page lives in a sub-folder
 
-			// Insert numbers into the page
-			document.getElementById('citations').textContent = stats.citations.toLocaleString();
-			document.getElementById('hindex'   ).textContent = stats.hindex;
-		}catch(err){
-			console.error('Scholar metrics failed:', err);
-		}
+		/* ----------  FETCH METRICS  ---------- */
+		const res   = await fetch(JSON_PATH);
+		const stats = await res.json();
+
+		/* ----------  BUILD HEADING  ---------- */
+		const hd = document.getElementById('published-heading');
+		hd.innerHTML = `Published (<a href="${PROFILE_URL}" target="_blank" rel="noopener">
+			${stats.citations.toLocaleString()} citations, h-index: ${stats.hindex}
+		  </a>)`;
+	  } catch (err) {
+		/* Silent fail: heading stays plain “Published” */
+		console.error('Scholar metrics fetch failed', err);
+	  }
 	})();
 	</script>
 
@@ -312,11 +321,8 @@
                 </div>
 				<!--// end row -->
 				<div class="row">
-					<h2>Published</h2>
-					<ul class="scholar-metrics">
-					  <li><span id="citations">…</span> citations</li>
-					  <li>h-index <span id="hindex">…</span></li>
-					</ul>
+					<h2 id="published-heading">Published</h2>
+					
 					<p>M. K. Pedersen<br> 
 					<i>A Game Of Search: Navigating the Hidden Landscapes of Organizational Problem Solving</i><br>  
 					PhD dissertation, Department of Business Development & Technology, Aarhus University, Herning, Denmark (2025)
