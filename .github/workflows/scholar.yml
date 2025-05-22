@@ -25,15 +25,6 @@ jobs:
       - name: Run update script
         run: python scripts/update_scholar.py
         continue-on-error: true             # keep the workflow green if Scholar is down
-
-      
-      - name: Show JSON (was it written?)
-        run: |
-          ls -l public/data || true
-          cat data/scholar.json || true
-
-      - name: Show git status (is it dirty?)
-        run: git status --porcelain
         
       - name: Commit & push if metrics changed
         run: |
