@@ -40,7 +40,7 @@ jobs:
           git diff --quiet || (
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions@github.com"
-            git add public/data/scholar.json
+            git add data/scholar.json
             git commit -m "chore: update Scholar metrics (auto)"
             git push
           )
