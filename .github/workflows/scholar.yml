@@ -19,6 +19,7 @@ jobs:
 
       - name: Install scholarly
         run: |
+          pip install "httpx<0.26" # Pin httpx below 0.26 so 'proxies=' still exists
           pip install scholarly
           pip install free-proxy
 
