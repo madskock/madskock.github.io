@@ -34,6 +34,21 @@
     </head>
     <!-- END HEAD -->
 
+	<script>
+	(async ()=> {
+		try{
+			const res   = await fetch('public/data/scholar.json');   // adjust path if needed
+			const stats = await res.json();
+
+			// Insert numbers into the page
+			document.getElementById('citations').textContent = stats.citations.toLocaleString();
+			document.getElementById('hindex'   ).textContent = stats.hindex;
+		}catch(err){
+			console.error('Scholar metrics failed:', err);
+		}
+	})();
+	</script>
+
     <!-- BODY -->
     <body id="body" data-spy="scroll" data-target=".header">
 
@@ -298,6 +313,10 @@
 				<!--// end row -->
 				<div class="row">
 					<h2>Published</h2>
+					<ul class="scholar-metrics">
+					  <li><span id="citations">…</span> citations</li>
+					  <li>h-index <span id="hindex">…</span></li>
+					</ul>
 					<p>M. K. Pedersen<br> 
 					<i>A Game Of Search: Navigating the Hidden Landscapes of Organizational Problem Solving</i><br>  
 					PhD dissertation, Department of Business Development & Technology, Aarhus University, Herning, Denmark (2025)
