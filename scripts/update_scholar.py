@@ -1,6 +1,7 @@
 # scripts/update_scholar.py
+import json, pathlib, sys, time, random   
 from scholarly import scholarly, ProxyGenerator
-import json, pathlib
+
 
 AUTHOR_ID = "phhix_AAAAAJ"          # ← your Google Scholar ID
 
