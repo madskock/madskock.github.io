@@ -46,10 +46,10 @@ p {
 em,
 li,
 li a {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 400;
   font-family: Hind, sans-serif;
-  color: #515769;
+  color: #a6a7aa;
 }
 
 a {
@@ -532,6 +532,7 @@ fieldset[disabled] .btn-theme {
   width: 200px;
   height: 100px;
   float: left;
+  vertical-align: middle;
   max-height: 95px;
   line-height: 95px;
 }
@@ -620,6 +621,58 @@ fieldset[disabled] .btn-theme {
   transition-duration: 400ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+
+/* Centre logo and menu vertically ---------------------------- */
+@media (min-width:991px){                   /* desktop only */
+   .header .navbar > .container{
+       display:flex;                        /* put logo + menu on one row   */
+       align-items:center;                  /* …and centre them vertically  */
+       justify-content:space-between;       /* logo left, menu right        */
+   }
+
+   /* remove the padding that pushes the logo down */
+   .header .logo-wrap{padding:0;}
+
+   /* make the UL behave nicely inside the flex row */
+   .header .navbar-nav{
+       display:flex;
+       align-items:center;
+       margin:0;
+   }
+
+   /* links need only horizontal padding now */
+   .header .nav-item-child{
+       line-height:normal;                  /* let flexbox do the centring  */
+       padding:0 20px;
+   }
+}
+
+/* -----------------------------------------------------------------
+   Desktop navbar tweaks (logo position + underline position)
+   ----------------------------------------------------------------*/
+@media (min-width:992px){
+
+    /* 1 — Logo really sits at the left edge ---------------------- */
+    .header .navbar > .container{
+        display:flex;            /* already there, but restated for clarity */
+        align-items:center;
+        justify-content:flex-start;   /* instead of space-between        */
+    }
+    /* push the menu all the way to the right */
+    .header .nav-collapse{ margin-left:auto; }
+
+    /* 2 — Little cyan bar hugs each link’s baseline -------------- */
+    .header .nav-item-hover:after{
+        
+        bottom:auto;                /* sit flush with the bottom of link */
+		top:50%;                /* ignore the old hard-coded offset  */
+		transform:translateY(-50%);  /* …then pull it up by half its height */
+    }
+
+    /* (optional) float is ignored inside flex, so drop it to avoid confusion */
+    .header .logo{ float:none; }
 }
 
 /* Media Queries below 991px */
