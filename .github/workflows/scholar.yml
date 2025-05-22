@@ -11,30 +11,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    # Skip the job if *this* push was made by the bot itself
+    if: github.actor != 'github-actions[bot]'
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install scholarly
+      - name: Install Python deps
         run: |
-          pip install "httpx<0.26" # Pin httpx below 0.26 so 'proxies=' still exists
-          pip install scholarly
-          pip install free-proxy
+          pip install "httpx<0.26"          # pinned for Scholarly
+          pip install scholarly free-proxy
 
       - name: Run update script
         run: python scripts/update_scholar.py
-        continue-on-error: true
+        continue-on-error: true             # keep the workflow green if Scholar is down
 
-      - name: Commit & push if changes
+      - name: Commit & push if metrics changed
         run: |
           git diff --quiet || (
-            git config --global user.name  "github-actions"
-            git config --global user.email "action@github.com"
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions@github.com"
             git add public/data/scholar.json
-            git commit -m "chore: nightly Scholar update"
+            git commit -m "chore: update Scholar metrics (auto)"
             git push
           )
