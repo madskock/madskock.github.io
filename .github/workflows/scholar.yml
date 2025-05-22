@@ -35,21 +35,12 @@ jobs:
       - name: Show git status (is it dirty?)
         run: git status --porcelain
         
-      #- name: Commit & push if metrics changed
-      #  run: |
-      #    git diff --quiet || (
-      #      git config user.name  "github-actions[bot]"
-      #      git config user.email "github-actions@github.com"
-      #      git add data/scholar.json
-      #      git commit -m "chore: update Scholar metrics (auto)"
-      #      git push
-      #    )
-      
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: data          # or your build output dir
-
-      - name: Deploy to GitHub Pages
-        id: deploy-pages
-        uses: actions/deploy-pages@v4
+      - name: Commit & push if metrics changed
+        run: |
+          git diff --quiet || (
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions@github.com"
+            git add data/scholar.json
+            git commit -m "chore: update Scholar metrics (auto)"
+            git push
+          )
