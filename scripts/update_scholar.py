@@ -18,10 +18,10 @@ time.sleep(random.uniform(2, 6))
 
 
 try:
-     author = scholarly.fill(
+    author = scholarly.fill(
                  scholarly.search_author_id(AUTHOR_ID),
                  sections=['indices'])
- except Exception as e:
+except Exception as e:
     print("❌  Scholar fetch failed:", e)
     sys.exit(0)                         # fail soft
 
