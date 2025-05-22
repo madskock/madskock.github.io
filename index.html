@@ -48,9 +48,7 @@
 
 		/* ----------  BUILD HEADING  ---------- */
 		const hd = document.getElementById('published-heading');
-		hd.innerHTML = `Published (<a href="${PROFILE_URL}" target="_blank" rel="noopener">
-			Cites: ${stats.citations.toLocaleString()}, h-index: ${stats.hindex}
-		  </a>)`;
+		hd.innerHTML = `Published (Cites: ${stats.citations.toLocaleString()}, h-index: ${stats.hindex}, Source: <a href="${PROFILE_URL}" target="_blank" rel="noopener">Google Scholar</a>)`;
 	  } catch (err) {
 		/* Silent fail: heading stays plain “Published” */
 		console.error('Scholar metrics fetch failed', err);
